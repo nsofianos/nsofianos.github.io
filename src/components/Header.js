@@ -6,28 +6,28 @@ function Header() {
       <div class="logo">
         <img src={logo} alt=""></img>
       </div>
-      <button class="nav-toggle">
-        <span class="hamburger"></span>
+      <button className="nav-toggle">
+        <span className="hamburger"></span>
       </button>
-      <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__item">
-            <a href="#" class="nav__link">
+      <nav className="nav">
+        <ul className="nav__list">
+          <li className="nav__item">
+            <a href="#" className="nav__link">
               Home
             </a>
           </li>
-          <li class="nav__item">
-            <a href="#" class="nav__link">
+          <li className="nav__item">
+            <a href="#" className="nav__link">
               My Services
             </a>
           </li>
-          <li class="nav__item">
-            <a href="#" class="nav__link">
+          <li className="nav__item">
+            <a href="#" className="nav__link">
               About Me
             </a>
           </li>
-          <li class="nav__item">
-            <a href="#" class="nav__link">
+          <li className="nav__item">
+            <a href="#" className="nav__link">
               My Work
             </a>
           </li>
