@@ -1,10 +1,10 @@
-import logo from "../../public/images/img/dev-jane-01.jpg";
+import logo from "../img/devjane.png";
 
 function Header() {
   return (
     <header className="App-header">
       <div class="logo">
-        <img src={logo} alt="" width="100" height="100"></img>
+        <img src={logo} alt=""></img>
       </div>
       <button class="nav-toggle">
         <span class="hamburger"></span>
