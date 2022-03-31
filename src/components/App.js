@@ -3,6 +3,8 @@ import Header from "./Header.js";
 import Intro from "./Intro";
 import Services from "./Services";
 import About from "./About";
+import Work from "./Work";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <Intro />
       <Services />
       <About />
+      <Work />
+      <Footer />
     </div>
   );
 }
