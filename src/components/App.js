@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import Header from "./Header.js";
 import Intro from "./Intro";
 import Services from "./Services";
@@ -8,13 +8,15 @@ import Footer from "./Footer";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Header />
-      <Intro />
-      <Services />
-      <About />
-      <Work />
-      <Footer />
+      <div className="sections">
+        <Intro />
+        <Services />
+        <About />
+        <Work />
+        <Footer />
+      </div>
     </div>
   );
 }

@@ -33,14 +33,18 @@
 }
 
 body {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background: var(--clr-light);
-  color: var(--clr-dark);
-  margin: 0;
-  font-family: var(--ff-primary);
-  font-size: var(--fs-body);
-  line-height: 1.6;
+  // -webkit-font-smoothing: antialiased;
+  // -moz-osx-font-smoothing: grayscale;
+  // /* background: var(--clr-light); */
+  // color: var(--clr-dark);
+  // margin: 0;
+  // font-family: var(--ff-primary);
+  // font-size: var(--fs-body);
+  // line-height: 1.6;
+}
+
+section {
+  padding: 5em 2em;
 }
 
 img {
@@ -57,7 +61,7 @@ strong {
 h1,
 h2,
 h3 {
-  line-height: 1.1;
+  line-height: 1;
   margin: 0;
 }
 

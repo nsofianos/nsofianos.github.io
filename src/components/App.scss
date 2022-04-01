@@ -1,0 +1,33 @@
+.app {
+  height: 100vh;
+
+  .sections {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-color: red;
+
+    > * {
+      width: 100vw;
+      height: calc(100vh - 100px);
+    }
+  }
+}
+
+// .section__title {
+//   margin-bottom: 0.25em;
+// }
+
+// .section__subtitle {
+//   margin: 0;
+//   font-size: var(--fs-h3);
+// }
+
+// .section__title--intro {
+//   font-weight: var(--fw-reg);
+// }
+
+// .section__subtitle--intro,
+// .section__subtitle--about {
+//   background: var(--clr-accent);
+//   font-family: var(--ff-secondary);
+// }
