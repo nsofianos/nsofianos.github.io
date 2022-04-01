@@ -4,11 +4,18 @@
   .sections {
     width: 100%;
     height: calc(100vh - 100px);
-    background-color: red;
+    position: relative;
+    top: 100px;
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none; //firefox
+    &::-webkit-scrollbar {
+      display: none;
+    }
 
     > * {
       width: 100vw;
       height: calc(100vh - 100px);
+      scroll-snap-align: start;
     }
   }
 }

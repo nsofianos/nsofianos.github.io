@@ -1,5 +1,7 @@
+import "./Services.scss";
+
 function Services() {
-  return <section className="my-services" id="services"></section>;
+  return <section className="services"></section>;
 }
 
 export default Services;

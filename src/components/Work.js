@@ -1,5 +1,7 @@
+import "./Work.scss";
+
 function Work() {
-  return <section className="my-work" id="work"></section>;
+  return <section className="work"></section>;
 }
 
 export default Work;
