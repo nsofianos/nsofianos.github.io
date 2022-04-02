@@ -1,6 +1,6 @@
 import "./About.scss";
 function About() {
-  return <section className="about-me" id="about"></section>;
+  return <section className="about" id="about"></section>;
 }
 
 export default About;

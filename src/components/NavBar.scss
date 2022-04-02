@@ -1,0 +1,60 @@
+@import "../index.scss";
+.nav {
+  background-color: white;
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  transition: all 1s ease;
+  .nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    align-items: center;
+    height: 100%;
+  }
+
+  .nav-left {
+    overflow: hidden;
+  }
+
+  .nav-right {
+    .nav-right-hamburger {
+      width: 32px;
+      height: 25px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      cursor: pointer;
+
+      span {
+        width: 100%;
+        height: 3px;
+        background-color: $mainColor;
+        transform-origin: left;
+        transition: all 2s ease;
+      }
+    }
+  }
+
+  &.active {
+    background-color: $mainColor;
+    color: white;
+
+    .nav-right-hamburger {
+      span {
+        &:first-child {
+          background-color: white;
+          transform: rotate(45deg);
+        }
+        &:nth-child(2) {
+          opacity: 0;
+        }
+        &:last-child {
+          background-color: white;
+          transform: rotate(-45deg);
+        }
+      }
+    }
+  }
+}
