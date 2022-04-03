@@ -31,7 +31,7 @@
       span {
         width: 100%;
         height: 3px;
-        background-color: $mainColor;
+        background-color: $clr-nav;
         transform-origin: left;
         transition: all 2s ease;
       }
@@ -39,7 +39,7 @@
   }
 
   &.active {
-    background-color: $mainColor;
+    background-color: $clr-nav;
     color: white;
 
     .nav-right-hamburger {
