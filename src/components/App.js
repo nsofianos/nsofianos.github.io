@@ -1,10 +1,11 @@
 import "./App.scss";
-import NavBar from "./NavBar.js";
-import Intro from "./Intro";
-import Services from "./Services";
-import About from "./About";
-import Work from "./Work";
-import Footer from "./Footer";
+import NavBar from "./Nav/NavBar.js";
+import Intro from "./Sections/Intro";
+import Services from "./Sections/Services";
+import About from "./Sections/About";
+import Work from "./Sections/Work";
+import Footer from "./Sections/Footer";
+import SideBar from "./Nav/SideBar";
 import { useState } from "react";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
   return (
     <div className="app">
       <NavBar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
+      <SideBar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
       <div className="sections">
         <Intro />
         <Services />
