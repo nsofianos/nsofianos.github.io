@@ -6,6 +6,11 @@
 
 $clr-nav: #303841;
 $clr-white: #ffffff;
+$clr-black: #000000;
 $fontRegular: 300;
 $fontBold: 400;
 /* Custom Properties */
+
+body {
+  overflow: hidden;
+}

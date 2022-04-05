@@ -2,17 +2,13 @@
 
 .intro {
   background-color: $clr-white;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
 
-  .img-container {
-    height: 400px;
-    width: 400px;
-    display: flex;
-    align-items: center;
-    img {
-      width: 90%;
-      height: 90%;
-      border-radius: 50%;
-      box-shadow: 0 0 20px 0px #7a7a7a;
+  .intro__img-container {
+    .intro__img {
     }
   }
 }
