@@ -9,8 +9,15 @@ $clr-white: #ffffff;
 $clr-black: #000000;
 $fontRegular: 300;
 $fontBold: 400;
+$font-lrg: 4.5rem;
+$font-md: 3rem;
 /* Custom Properties */
 
 body {
   overflow: hidden;
+  background-color: $clr-black;
+}
+
+h2 {
+  font-size: $font-md;
 }

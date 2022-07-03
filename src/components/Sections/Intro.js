@@ -4,17 +4,17 @@ function Intro() {
   return (
     <section className="intro" id="intro">
       <div className="intro__left">
-        <div className="intro__img-container">
-          <img
-            className="intro__img"
-            src="images/me-circle2.png"
-            alt="my profile pic"
-          ></img>
-        </div>
+        <img
+          className="intro__img"
+          src="images/me-circle2.png"
+          alt="my profile pic"
+        ></img>
       </div>
       <div className="intro__right">
-        <h2>Hi, I'm</h2>
-        <h1>Nik Sofianos</h1>
+        <h1>
+          Hi, I'm <span className="intro__name">Nik</span>
+        </h1>
+        <h2>I'm a Full Stack Developer.</h2>
       </div>
     </section>
   );
