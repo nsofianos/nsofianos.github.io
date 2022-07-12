@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Custom Properties */
+body {
+  overflow: hidden;
+  background-color: #000000;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+.intro {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+}
+.intro .intro__img {
+  height: 400px;
+}
+.intro .intro__name {
+  color: rgb(29, 180, 190);
+}/*# sourceMappingURL=Intro.css.map */

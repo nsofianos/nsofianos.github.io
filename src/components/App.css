@@ -1,0 +1,19 @@
+.app .sections {
+  overflow: scroll;
+  height: calc(100vh - 100px);
+  width: 100%;
+  position: relative;
+  top: 100px;
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+.app .sections::-webkit-scrollbar {
+  width: 0;
+}
+.app .sections > * {
+  width: 100vw;
+  height: calc(100vh - 100px);
+  scroll-snap-align: start;
+}/*# sourceMappingURL=App.css.map */

@@ -1,0 +1,15 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Custom Properties */
+body {
+  overflow: hidden;
+  background-color: #000000;
+}
+
+h2 {
+  font-size: 3rem;
+}/*# sourceMappingURL=index.css.map */

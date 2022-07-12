@@ -7,7 +7,7 @@
   top: 0;
   transition: all 1s ease;
   z-index: 3;
-  .nav-wrapper {
+  .wrapper {
     display: flex;
     justify-content: space-between;
     padding: 10px 30px;
@@ -17,13 +17,13 @@
 
   .nav-left {
     overflow: hidden;
-    .nav-logo {
+    .logo {
       height: 3em;
     }
   }
 
   .nav-right {
-    .nav-right-hamburger {
+    .hamburger {
       width: 32px;
       height: 25px;
       display: flex;
@@ -45,7 +45,7 @@
     background-color: $clr-nav;
     color: white;
 
-    .nav-right-hamburger {
+    .hamburger {
       span {
         &:first-child {
           background-color: white;
