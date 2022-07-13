@@ -1,15 +1,13 @@
 import "./ProjectsList.scss";
-import { useState } from "react";
 
-function ProjectsList({ projects }) {
-  const [selected, setSelected] = useState("featured");
+function ProjectsList({ projects, setSelected, currentSelected }) {
   return (
-    <ul>
+    <ul className="list">
       {projects.map((project) => {
         return (
           <li
             className={
-              selected === project.id ? "list-item active" : "list-item"
+              currentSelected === project.id ? "list-item active" : "list-item"
             }
             key={project.id}
             id={project.id}
