@@ -6,9 +6,9 @@ function SideBar({ sidebarOpen, setSidebarOpen }) {
     <div className={"sideBar " + (sidebarOpen && "active")}>
       <ul>
         <SideBarItem setSidebarOpen href="#intro" text="Intro" />
-        <SideBarItem setSidebarOpen href="#about" text="About" />
-        <SideBarItem setSidebarOpen href="#work" text="My Work" />
-        <SideBarItem setSidebarOpen href="#footer" text="Footer" />
+        <SideBarItem setSidebarOpen href="#projects" text="Projects" />
+        <SideBarItem setSidebarOpen href="#skills" text="Skills" />
+        <SideBarItem setSidebarOpen href="#contact" text="Contact" />
       </ul>
     </div>
   );

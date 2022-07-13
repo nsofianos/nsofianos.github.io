@@ -2,9 +2,8 @@ import "./App.scss";
 import NavBar from "./Nav/NavBar.js";
 import Intro from "./Sections/Intro/Intro";
 import Projects from "./Sections/Projects/Projects";
-import About from "./Sections/About/About";
-import Work from "./Sections/Work/Work";
-import Footer from "./Sections/Footer/Footer";
+import Skills from "./Sections/Skills/Skills";
+import Contact from "./Sections/Contact/Contact";
 import SideBar from "./Nav/SideBar";
 import { useState } from "react";
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -21,9 +20,8 @@ function App() {
       <div className="sections">
         <Intro />
         <Projects />
-        <About />
-        <Work />
-        <Footer />
+        <Skills />
+        <Contact />
       </div>
     </div>
   );
