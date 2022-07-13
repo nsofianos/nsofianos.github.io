@@ -1,20 +1,22 @@
 .app {
+  height: 100vh;
+
   .sections {
     overflow: scroll;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 70px);
     width: 100%;
     position: relative;
-    top: 100px;
+    top: 70px;
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
     scrollbar-width: none; //firefox
     &::-webkit-scrollbar {
-      width: 0;
+      display: none;
     }
 
     > * {
       width: 100vw;
-      height: calc(100vh - 100px);
+      height: calc(100vh - 70px);
       scroll-snap-align: start;
     }
   }

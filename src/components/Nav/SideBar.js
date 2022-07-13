@@ -3,7 +3,7 @@ import SideBarItem from "./SideBarItem";
 
 function SideBar({ sidebarOpen, setSidebarOpen }) {
   return (
-    <div class={"sideBar " + (sidebarOpen && "active")}>
+    <div className={"sideBar " + (sidebarOpen && "active")}>
       <ul>
         <SideBarItem setSidebarOpen href="#intro" text="Intro" />
         <SideBarItem setSidebarOpen href="#about" text="About" />
