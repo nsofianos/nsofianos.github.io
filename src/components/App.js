@@ -1,10 +1,10 @@
 import "./App.scss";
 import NavBar from "./Nav/NavBar.js";
-import Intro from "./Sections/Intro";
-import Services from "./Sections/Services";
-import About from "./Sections/About";
-import Work from "./Sections/Work";
-import Footer from "./Sections/Footer";
+import Intro from "./Sections/Intro/Intro";
+import Projects from "./Sections/Projects/Projects";
+import About from "./Sections/About/About";
+import Work from "./Sections/Work/Work";
+import Footer from "./Sections/Footer/Footer";
 import SideBar from "./Nav/SideBar";
 import { useState } from "react";
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -20,7 +20,7 @@ function App() {
       <SideBar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
       <div className="sections">
         <Intro />
-        <Services />
+        <Projects />
         <About />
         <Work />
         <Footer />

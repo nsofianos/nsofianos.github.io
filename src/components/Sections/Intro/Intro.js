@@ -29,7 +29,7 @@ function Intro() {
             Freelance <span ref={textRef}></span>
           </h3>
         </div>
-        <a href="#services">
+        <a href="#projects">
           <img src="images/assets/down.png" alt="down-arrow"></img>
         </a>
       </div>
