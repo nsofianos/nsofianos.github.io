@@ -5,12 +5,8 @@ function NavBar(props) {
     <nav className={"nav " + (props.sidebarOpen && "active")}>
       <div className="wrapper">
         <div className="nav-left">
-          <a href="#intro">
-            <img
-              className="logo"
-              src="images/default-monochrome2.svg"
-              alt="logo"
-            ></img>
+          <a className="logo" href="#intro">
+            &#60;ns&#62;
           </a>
           <div className="contact-info"></div>
         </div>
