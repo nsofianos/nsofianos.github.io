@@ -2,11 +2,13 @@
 .nav {
   background-color: white;
   width: 100%;
-  height: 70px;
+  height: 90px;
   position: fixed;
   top: 0;
   transition: all 1s ease;
   z-index: 3;
+  border-bottom: 1px solid rgb(240, 240, 240);
+
   .wrapper {
     display: flex;
     justify-content: space-between;
@@ -14,6 +16,7 @@
     align-items: center;
   }
 
+  // LEFT SECTION OF NAVBAR
   .nav-left {
     overflow: hidden;
     .logo {
@@ -21,6 +24,7 @@
     }
   }
 
+  // RIGHT SECTION OF NAVBAR
   .nav-right {
     .hamburger {
       width: 32px;
@@ -30,6 +34,10 @@
       justify-content: space-between;
       cursor: pointer;
 
+      @media only screen and (min-width: 600px) {
+        display: none;
+      }
+
       span {
         width: 100%;
         height: 3px;
@@ -38,8 +46,26 @@
         transition: all 2s ease;
       }
     }
+    .links {
+      a,
+      i {
+        margin-right: 3em;
+        &:hover {
+          color: #a10807;
+          cursor: pointer;
+        }
+        &.active {
+          color: #a10807;
+        }
+      }
+
+      @media only screen and (max-width: 600px) {
+        display: none;
+      }
+    }
   }
 
+  // MOBILE ACTIVE STATE
   &.active {
     background-color: $clr-nav;
     color: white;
