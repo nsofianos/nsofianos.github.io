@@ -1,5 +1,4 @@
 import "./NavBar.scss";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function NavBar(props) {
   return (
@@ -13,10 +12,7 @@ function NavBar(props) {
               alt="logo"
             ></img>
           </a>
-          <div className="contact-info">
-            <FontAwesomeIcon icon="fa-solid fa-user" />
-            <FontAwesomeIcon icon="fa-solid fa-envelope" />
-          </div>
+          <div className="contact-info"></div>
         </div>
         <div className="nav-right">
           <div className="links">
