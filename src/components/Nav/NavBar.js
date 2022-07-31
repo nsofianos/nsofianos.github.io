@@ -17,7 +17,7 @@ function NavBar(props) {
             <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
-            <i class="uil uil-moon"></i>
+            <i className="uil uil-moon"></i>
           </div>
           <div
             className="hamburger"

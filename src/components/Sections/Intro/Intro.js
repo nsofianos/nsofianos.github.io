@@ -34,10 +34,16 @@ function Intro() {
           <h3>
             Full time <span ref={textRef}></span>
           </h3>
+          <button>
+            Contact Me
+            <i className="uil uil-message"></i>
+          </button>
+          <a className="scroll-button" href="#projects">
+            <i className="uil uil-mouse-alt"></i>
+            Scroll down
+            <i className="uil uil-arrow-down"></i>
+          </a>
         </div>
-        <a href="#projects">
-          <img src="images/assets/down.png" alt="down-arrow"></img>
-        </a>
       </div>
     </section>
   );
