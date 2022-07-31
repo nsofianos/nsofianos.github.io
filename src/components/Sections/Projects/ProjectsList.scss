@@ -7,15 +7,21 @@
   display: flex;
 
   li {
-    font-size: 14px;
     margin-right: 50px;
-    padding: 7px;
+    padding: 0.6em;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 8px;
 
     &.active {
       background-color: $clr-accent;
-      color: white;
+      color: $clr-white;
+      &:hover {
+        color: $clr-white;
+      }
+    }
+
+    &:hover {
+      color: $clr-accent;
     }
   }
 }

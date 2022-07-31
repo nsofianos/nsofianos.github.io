@@ -45,7 +45,8 @@ function Projects() {
 
   return (
     <section className="projects" id="projects">
-      <h1>Projects</h1>
+      <h1>Portfolio</h1>
+      <p>Most recent work</p>
       <ProjectsList
         projects={projects}
         setSelected={setSelected}
@@ -56,7 +57,19 @@ function Projects() {
           return (
             <div className="item" key={project.id}>
               <img src={project.img} alt="" />
-              <h3>{project.title}</h3>
+              <div className="info">
+                <h3>{project.title}</h3>
+                <div className="links">
+                  <i
+                    onClick={() => window.open(project.live)}
+                    className="uil uil-desktop"
+                  ></i>
+                  <i
+                    onClick={() => window.open(project.github)}
+                    className="uil uil-github"
+                  ></i>
+                </div>
+              </div>
             </div>
           );
         })}
