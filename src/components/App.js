@@ -5,6 +5,7 @@ import Projects from "./Sections/Projects/Projects";
 import Skills from "./Sections/Skills/Skills";
 import Contact from "./Sections/Contact/Contact";
 import SideBar from "./Nav/SideBar";
+import About from "./Sections/About/About";
 import { useState } from "react";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <SideBar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
       <div className="sections">
         <Intro />
+        <About />
         <Projects />
         <Skills />
         <Contact />

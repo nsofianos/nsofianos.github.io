@@ -14,9 +14,8 @@ $clr-accent-lite: #8f0b0b;
 $fontRegular: 300;
 $fontBold: 400;
 $font-lrg: 4.5rem;
-$font-md: 3rem;
+$font-md: 18px;
 /* Custom Properties */
-
 body {
   overflow: hidden;
 }
@@ -34,4 +33,16 @@ a {
 i {
   font-size: 1.5em;
   color: inherit;
+}
+
+h1 {
+  margin-bottom: 0.2em;
+  font-size: 50px;
+  color: $clr-black;
+  font-weight: 600;
+}
+
+p {
+  margin-bottom: 3em;
+  color: $clr-grey-light;
 }

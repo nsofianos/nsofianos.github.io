@@ -46,7 +46,7 @@ function Projects() {
   return (
     <section className="projects" id="projects">
       <h1>Portfolio</h1>
-      <p>Most recent work</p>
+      <p className="label-txt">Most recent work</p>
       <ProjectsList
         projects={projects}
         setSelected={setSelected}
