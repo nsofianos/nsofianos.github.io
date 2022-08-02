@@ -34,19 +34,7 @@
 
       button {
         margin-top: 2em;
-        background-color: $clr-accent;
-        padding: 1em;
-        display: inline-block;
-        border: none;
-        border-radius: 6px;
-        color: $clr-white;
-        font-weight: 500;
         align-self: flex-start;
-        cursor: pointer;
-
-        &:hover {
-          background-color: $clr-accent-lite;
-        }
 
         i {
           margin-left: 0.5em;

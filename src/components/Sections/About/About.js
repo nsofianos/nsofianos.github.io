@@ -11,17 +11,21 @@ function About() {
         </div>
         <div className="about-right">
           <p className="intro-txt">
-            Web developer with extensive knowledger and experience working in
-            web technologies and ui design quiality work. Web developer with
-            extensive knowledger and experience working in web technologies and
-            ui design quiality work.
+            I'm a Vancouver-based full-stack web developer with a genuine
+            passion for building aethetic, responsive web applications from
+            front to back. I gathered my first experiences building web apps
+            while enrolled in Lighthouse Labs, where I then moved on to work as
+            a student mentor. If you're in need of a people loving,
+            detail-oriented problem solver - I'm your guy.
           </p>
           <div className="badges">
             <Badge num="01" title="Years experience" />
             <Badge num="10" title="Completed projects" />
             <Badge num="01" title="Companies worked" />
           </div>
-          <button>Download CV</button>
+          <button>
+            Download CV <i className="uil uil-download-alt"></i>
+          </button>
         </div>
       </div>
     </section>
