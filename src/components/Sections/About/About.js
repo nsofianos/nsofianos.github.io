@@ -10,7 +10,7 @@ function About() {
           <img src="images/me.jpg"></img>
         </div>
         <div className="about-right">
-          <p>
+          <p className="intro-txt">
             Web developer with extensive knowledger and experience working in
             web technologies and ui design quiality work. Web developer with
             extensive knowledger and experience working in web technologies and

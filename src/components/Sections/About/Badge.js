@@ -2,7 +2,7 @@ import "./Badge.scss";
 function Badge({ num, title }) {
   return (
     <div className="badge">
-      <h2>{num}+</h2>
+      <h1>{num}+</h1>
       <p>{title}</p>
     </div>
   );

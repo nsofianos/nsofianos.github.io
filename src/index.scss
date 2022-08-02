@@ -13,8 +13,9 @@ $clr-accent: #9d4141;
 $clr-accent-lite: #8f0b0b;
 $fontRegular: 300;
 $fontBold: 400;
-$font-lrg: 4.5rem;
 $font-md: 18px;
+$font-lrg: 36px;
+$font-sml: 16px;
 /* Custom Properties */
 body {
   overflow: hidden;
@@ -45,4 +46,15 @@ h1 {
 p {
   margin-bottom: 3em;
   color: $clr-grey-light;
+}
+
+button {
+  background-color: $clr-accent;
+  padding: 1em;
+  display: inline-block;
+  border: none;
+  border-radius: 6px;
+  color: $clr-white;
+  font-weight: 500;
+  cursor: pointer;
 }
