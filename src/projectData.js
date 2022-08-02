@@ -9,7 +9,7 @@ export const featuredPortfolio = [
   {
     id: 2,
     title: "Flowchart Editor",
-    img: "../images/assets/flowchart.png",
+    img: "../images/assets/flowchart4.png",
     github: "https://github.com/nsofianos/legendary-octo-chainsaw",
     live: "https://ns-entropy.netlify.app/",
   },
@@ -47,7 +47,7 @@ export const reactPortfolio = [
   {
     id: 1,
     title: "Flowchart Editor",
-    img: "../images/assets/flowchart.png",
+    img: "../images/assets/flowchart4.png",
     github: "https://github.com/nsofianos/legendary-octo-chainsaw",
     live: "https://ns-entropy.netlify.app/",
   },
@@ -90,14 +90,14 @@ export const apiPortfolio = [
   {
     id: 3,
     title: "Flowchart Editor",
-    img: "../images/assets/flowchart.png",
+    img: "../images/assets/flowchart4.png",
     github: "https://github.com/nsofianos/legendary-octo-chainsaw",
     live: "https://ns-entropy.netlify.app/",
   },
   {
     id: 4,
     title: "Polling App",
-    img: "../images/assets/upick.png",
+    img: "../images/assets/upick2.png",
     github: "https://github.com/nsofianos/uPick",
   },
 ];

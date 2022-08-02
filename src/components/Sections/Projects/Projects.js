@@ -60,10 +60,13 @@ function Projects() {
               <div className="info">
                 <h3>{project.title}</h3>
                 <div className="links">
-                  <i
-                    onClick={() => window.open(project.live)}
-                    className="uil uil-desktop"
-                  ></i>
+                  {project.live && (
+                    <i
+                      onClick={() => window.open(project.live)}
+                      className="uil uil-desktop"
+                    ></i>
+                  )}
+
                   <i
                     onClick={() => window.open(project.github)}
                     className="uil uil-github"
